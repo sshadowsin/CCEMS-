@@ -442,6 +442,33 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
+        ui-sref='tabsController.introduction'
+      2) Using $state.go programatically:
+        $state.go('tabsController.introduction');
+    This allows your app to figure out which Tab to open this page in on the fly.
+    If you're setting a Tabs default page or modifying the .otherwise for your app and
+    must use a URL, use one of the following:
+      /Tabs_Controller/tab1/Introduction
+      /Tabs_Controller/tab3/Introduction
+  */
+  .state('tabsController.introduction', {
+    url: '/Introduction',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/introduction.html',
+        controller: 'introductionCtrl'
+      },
+      'tab3': {
+        templateUrl: 'templates/introduction.html',
+        controller: 'introductionCtrl'
+      }
+    }
+  })
+
+  /* 
+    The IonicUIRouter.js UI-Router Modification is being used for this route.
+    To navigate to this route, do NOT use a URL. Instead use one of the following:
+      1) Using the ui-sref HTML attribute:
         ui-sref='tabsController.protocol101MedicalCardiacArrestInitialCare'
       2) Using $state.go programatically:
         $state.go('tabsController.protocol101MedicalCardiacArrestInitialCare');
