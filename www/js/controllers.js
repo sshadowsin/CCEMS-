@@ -1459,7 +1459,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol904CancellingOrDowngradingRespondingParamedicsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol905AdministrationOfNitroglycerinCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1470,7 +1470,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol906NubianCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol906AdministrationOfAspirinCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1481,7 +1481,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol907AdministrationOfNitroglycerinCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1492,7 +1492,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol908AdministrationOfAspirinCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol908AdministrationOfEpinephrineByAutoInjectorCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1503,7 +1503,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol909AdministrationOfOralGlucoseCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1514,7 +1514,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol910AdministrationOfEpinephrineByAutoInjectorCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol910InterfacilityTransportMedicationsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1525,7 +1525,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol911AdministrationOfOralGlucoseCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol911FamilyCenteredCareCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1536,7 +1536,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol912InterfacilityTransportMedicationsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol912EbolaCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1547,7 +1547,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol913FamilyCenteredCareCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol913NeedleDecompressionProcedureCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1558,7 +1558,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol914EbolaCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1569,7 +1569,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol915NeedleDecompressionProcedureCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol915SuckingChestWoundCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1580,7 +1580,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol904AAmbulanceDestinationCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1591,7 +1591,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol917SuckingChestWounCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol904BDestinationProtocolForNonTraumaPatientsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1602,29 +1602,7 @@ $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
 
 }])
    
-.controller('protocol905AAmbulanceDestinationCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-    
-$scope.$on('$ionicView.beforeEnter', function (event, viewData) {
-    viewData.enableBack = true;
-});
-
-}])
-   
-.controller('protocol905BDestinationProtocolForNonTraumaPatientsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-    
-$scope.$on('$ionicView.beforeEnter', function (event, viewData) {
-    viewData.enableBack = true;
-});
-
-}])
-   
-.controller('protocol905CDestinationProtocolForNonTraumaPatientsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('protocol904CDestinationProtocolForNonTraumaPatientsCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams) {
@@ -1695,6 +1673,14 @@ function ($scope, $stateParams) {
 $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
     viewData.enableBack = true;
 });
+
+}])
+   
+.controller('commonLabValuesCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams) {
+
 
 }])
  

@@ -2980,25 +2980,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol904CancellingOrDowngradingRespondingParamedics'
+        ui-sref='tabsController.protocol905AdministrationOfNitroglycerin'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol904CancellingOrDowngradingRespondingParamedics');
+        $state.go('tabsController.protocol905AdministrationOfNitroglycerin');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_904
-      /Tabs_Controller/tab3/Protocol_904
+      /Tabs_Controller/tab1/Protocol_905
+      /Tabs_Controller/tab3/Protocol_905
   */
-  .state('tabsController.protocol904CancellingOrDowngradingRespondingParamedics', {
-    url: '/Protocol_904',
+  .state('tabsController.protocol905AdministrationOfNitroglycerin', {
+    url: '/Protocol_905',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol904CancellingOrDowngradingRespondingParamedics.html',
-        controller: 'protocol904CancellingOrDowngradingRespondingParamedicsCtrl'
+        templateUrl: 'templates/protocol905AdministrationOfNitroglycerin.html',
+        controller: 'protocol905AdministrationOfNitroglycerinCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol904CancellingOrDowngradingRespondingParamedics.html',
-        controller: 'protocol904CancellingOrDowngradingRespondingParamedicsCtrl'
+        templateUrl: 'templates/protocol905AdministrationOfNitroglycerin.html',
+        controller: 'protocol905AdministrationOfNitroglycerinCtrl'
       }
     }
   })
@@ -3007,25 +3007,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol906Nubian'
+        ui-sref='tabsController.protocol906AdministrationOfAspirin'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol906Nubian');
+        $state.go('tabsController.protocol906AdministrationOfAspirin');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_906
       /Tabs_Controller/tab3/Protocol_906
   */
-  .state('tabsController.protocol906Nubian', {
+  .state('tabsController.protocol906AdministrationOfAspirin', {
     url: '/Protocol_906',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol906Nubian.html',
-        controller: 'protocol906NubianCtrl'
+        templateUrl: 'templates/protocol906AdministrationOfAspirin.html',
+        controller: 'protocol906AdministrationOfAspirinCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol906Nubian.html',
-        controller: 'protocol906NubianCtrl'
+        templateUrl: 'templates/protocol906AdministrationOfAspirin.html',
+        controller: 'protocol906AdministrationOfAspirinCtrl'
       }
     }
   })
@@ -3034,25 +3034,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol907AdministrationOfNitroglycerin'
+        ui-sref='tabsController.protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol907AdministrationOfNitroglycerin');
+        $state.go('tabsController.protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_907
       /Tabs_Controller/tab3/Protocol_907
   */
-  .state('tabsController.protocol907AdministrationOfNitroglycerin', {
+  .state('tabsController.protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer', {
     url: '/Protocol_907',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol907AdministrationOfNitroglycerin.html',
-        controller: 'protocol907AdministrationOfNitroglycerinCtrl'
+        templateUrl: 'templates/protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer.html',
+        controller: 'protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol907AdministrationOfNitroglycerin.html',
-        controller: 'protocol907AdministrationOfNitroglycerinCtrl'
+        templateUrl: 'templates/protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer.html',
+        controller: 'protocol907AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl'
       }
     }
   })
@@ -3061,25 +3061,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol908AdministrationOfAspirin'
+        ui-sref='tabsController.protocol908AdministrationOfEpinephrineByAutoInjector'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol908AdministrationOfAspirin');
+        $state.go('tabsController.protocol908AdministrationOfEpinephrineByAutoInjector');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_908
       /Tabs_Controller/tab3/Protocol_908
   */
-  .state('tabsController.protocol908AdministrationOfAspirin', {
+  .state('tabsController.protocol908AdministrationOfEpinephrineByAutoInjector', {
     url: '/Protocol_908',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol908AdministrationOfAspirin.html',
-        controller: 'protocol908AdministrationOfAspirinCtrl'
+        templateUrl: 'templates/protocol908AdministrationOfEpinephrineByAutoInjector.html',
+        controller: 'protocol908AdministrationOfEpinephrineByAutoInjectorCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol908AdministrationOfAspirin.html',
-        controller: 'protocol908AdministrationOfAspirinCtrl'
+        templateUrl: 'templates/protocol908AdministrationOfEpinephrineByAutoInjector.html',
+        controller: 'protocol908AdministrationOfEpinephrineByAutoInjectorCtrl'
       }
     }
   })
@@ -3088,25 +3088,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer'
+        ui-sref='tabsController.protocol909AdministrationOfOralGlucose'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer');
+        $state.go('tabsController.protocol909AdministrationOfOralGlucose');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_909
       /Tabs_Controller/tab3/Protocol_909
   */
-  .state('tabsController.protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer', {
+  .state('tabsController.protocol909AdministrationOfOralGlucose', {
     url: '/Protocol_909',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer.html',
-        controller: 'protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl'
+        templateUrl: 'templates/protocol909AdministrationOfOralGlucose.html',
+        controller: 'protocol909AdministrationOfOralGlucoseCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizer.html',
-        controller: 'protocol909AdministrationOfPrescribedMeteredDoseInhalerOrSmallVolumeNebulizerCtrl'
+        templateUrl: 'templates/protocol909AdministrationOfOralGlucose.html',
+        controller: 'protocol909AdministrationOfOralGlucoseCtrl'
       }
     }
   })
@@ -3115,25 +3115,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol910AdministrationOfEpinephrineByAutoInjector'
+        ui-sref='tabsController.protocol910InterfacilityTransportMedications'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol910AdministrationOfEpinephrineByAutoInjector');
+        $state.go('tabsController.protocol910InterfacilityTransportMedications');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_910
       /Tabs_Controller/tab3/Protocol_910
   */
-  .state('tabsController.protocol910AdministrationOfEpinephrineByAutoInjector', {
+  .state('tabsController.protocol910InterfacilityTransportMedications', {
     url: '/Protocol_910',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol910AdministrationOfEpinephrineByAutoInjector.html',
-        controller: 'protocol910AdministrationOfEpinephrineByAutoInjectorCtrl'
+        templateUrl: 'templates/protocol910InterfacilityTransportMedications.html',
+        controller: 'protocol910InterfacilityTransportMedicationsCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol910AdministrationOfEpinephrineByAutoInjector.html',
-        controller: 'protocol910AdministrationOfEpinephrineByAutoInjectorCtrl'
+        templateUrl: 'templates/protocol910InterfacilityTransportMedications.html',
+        controller: 'protocol910InterfacilityTransportMedicationsCtrl'
       }
     }
   })
@@ -3142,25 +3142,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol911AdministrationOfOralGlucose'
+        ui-sref='tabsController.protocol911FamilyCenteredCare'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol911AdministrationOfOralGlucose');
+        $state.go('tabsController.protocol911FamilyCenteredCare');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_911
       /Tabs_Controller/tab3/Protocol_911
   */
-  .state('tabsController.protocol911AdministrationOfOralGlucose', {
+  .state('tabsController.protocol911FamilyCenteredCare', {
     url: '/Protocol_911',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol911AdministrationOfOralGlucose.html',
-        controller: 'protocol911AdministrationOfOralGlucoseCtrl'
+        templateUrl: 'templates/protocol911FamilyCenteredCare.html',
+        controller: 'protocol911FamilyCenteredCareCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol911AdministrationOfOralGlucose.html',
-        controller: 'protocol911AdministrationOfOralGlucoseCtrl'
+        templateUrl: 'templates/protocol911FamilyCenteredCare.html',
+        controller: 'protocol911FamilyCenteredCareCtrl'
       }
     }
   })
@@ -3169,25 +3169,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol912InterfacilityTransportMedications'
+        ui-sref='tabsController.protocol912Ebola'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol912InterfacilityTransportMedications');
+        $state.go('tabsController.protocol912Ebola');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_912
       /Tabs_Controller/tab3/Protocol_912
   */
-  .state('tabsController.protocol912InterfacilityTransportMedications', {
+  .state('tabsController.protocol912Ebola', {
     url: '/Protocol_912',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol912InterfacilityTransportMedications.html',
-        controller: 'protocol912InterfacilityTransportMedicationsCtrl'
+        templateUrl: 'templates/protocol912Ebola.html',
+        controller: 'protocol912EbolaCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol912InterfacilityTransportMedications.html',
-        controller: 'protocol912InterfacilityTransportMedicationsCtrl'
+        templateUrl: 'templates/protocol912Ebola.html',
+        controller: 'protocol912EbolaCtrl'
       }
     }
   })
@@ -3196,25 +3196,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol913FamilyCenteredCare'
+        ui-sref='tabsController.protocol913NeedleDecompressionProcedure'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol913FamilyCenteredCare');
+        $state.go('tabsController.protocol913NeedleDecompressionProcedure');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_913
       /Tabs_Controller/tab3/Protocol_913
   */
-  .state('tabsController.protocol913FamilyCenteredCare', {
+  .state('tabsController.protocol913NeedleDecompressionProcedure', {
     url: '/Protocol_913',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol913FamilyCenteredCare.html',
-        controller: 'protocol913FamilyCenteredCareCtrl'
+        templateUrl: 'templates/protocol913NeedleDecompressionProcedure.html',
+        controller: 'protocol913NeedleDecompressionProcedureCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol913FamilyCenteredCare.html',
-        controller: 'protocol913FamilyCenteredCareCtrl'
+        templateUrl: 'templates/protocol913NeedleDecompressionProcedure.html',
+        controller: 'protocol913NeedleDecompressionProcedureCtrl'
       }
     }
   })
@@ -3223,25 +3223,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol914Ebola'
+        ui-sref='tabsController.protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol914Ebola');
+        $state.go('tabsController.protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_914
       /Tabs_Controller/tab3/Protocol_914
   */
-  .state('tabsController.protocol914Ebola', {
+  .state('tabsController.protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle', {
     url: '/Protocol_914',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol914Ebola.html',
-        controller: 'protocol914EbolaCtrl'
+        templateUrl: 'templates/protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle.html',
+        controller: 'protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol914Ebola.html',
-        controller: 'protocol914EbolaCtrl'
+        templateUrl: 'templates/protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle.html',
+        controller: 'protocol914IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl'
       }
     }
   })
@@ -3250,25 +3250,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol915NeedleDecompressionProcedure'
+        ui-sref='tabsController.protocol915SuckingChestWound'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol915NeedleDecompressionProcedure');
+        $state.go('tabsController.protocol915SuckingChestWound');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
       /Tabs_Controller/tab1/Protocol_915
       /Tabs_Controller/tab3/Protocol_915
   */
-  .state('tabsController.protocol915NeedleDecompressionProcedure', {
+  .state('tabsController.protocol915SuckingChestWound', {
     url: '/Protocol_915',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol915NeedleDecompressionProcedure.html',
-        controller: 'protocol915NeedleDecompressionProcedureCtrl'
+        templateUrl: 'templates/protocol915SuckingChestWound.html',
+        controller: 'protocol915SuckingChestWoundCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol915NeedleDecompressionProcedure.html',
-        controller: 'protocol915NeedleDecompressionProcedureCtrl'
+        templateUrl: 'templates/protocol915SuckingChestWound.html',
+        controller: 'protocol915SuckingChestWoundCtrl'
       }
     }
   })
@@ -3277,25 +3277,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle'
+        ui-sref='tabsController.protocol904AAmbulanceDestination'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle');
+        $state.go('tabsController.protocol904AAmbulanceDestination');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_916
-      /Tabs_Controller/tab3/Protocol_916
+      /Tabs_Controller/tab1/Protocol_904-A
+      /Tabs_Controller/tab3/Protocol_904-A
   */
-  .state('tabsController.protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle', {
-    url: '/Protocol_916',
+  .state('tabsController.protocol904AAmbulanceDestination', {
+    url: '/Protocol_904-A',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle.html',
-        controller: 'protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl'
+        templateUrl: 'templates/protocol904AAmbulanceDestination.html',
+        controller: 'protocol904AAmbulanceDestinationCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedle.html',
-        controller: 'protocol916IntraosseousVascularAccessEZIOOrIllinoisBoneNeedleCtrl'
+        templateUrl: 'templates/protocol904AAmbulanceDestination.html',
+        controller: 'protocol904AAmbulanceDestinationCtrl'
       }
     }
   })
@@ -3304,25 +3304,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol917SuckingChestWoun'
+        ui-sref='tabsController.protocol904BDestinationProtocolForNonTraumaPatients'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol917SuckingChestWoun');
+        $state.go('tabsController.protocol904BDestinationProtocolForNonTraumaPatients');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_916
-      /Tabs_Controller/tab3/Protocol_916
+      /Tabs_Controller/tab1/Protocol_904-B
+      /Tabs_Controller/tab3/Protocol_904-B
   */
-  .state('tabsController.protocol917SuckingChestWoun', {
-    url: '/Protocol_916',
+  .state('tabsController.protocol904BDestinationProtocolForNonTraumaPatients', {
+    url: '/Protocol_904-B',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol917SuckingChestWoun.html',
-        controller: 'protocol917SuckingChestWounCtrl'
+        templateUrl: 'templates/protocol904BDestinationProtocolForNonTraumaPatients.html',
+        controller: 'protocol904BDestinationProtocolForNonTraumaPatientsCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol917SuckingChestWoun.html',
-        controller: 'protocol917SuckingChestWounCtrl'
+        templateUrl: 'templates/protocol904BDestinationProtocolForNonTraumaPatients.html',
+        controller: 'protocol904BDestinationProtocolForNonTraumaPatientsCtrl'
       }
     }
   })
@@ -3331,79 +3331,25 @@ angular.module('app.routes', ['ionicUIRouter'])
     The IonicUIRouter.js UI-Router Modification is being used for this route.
     To navigate to this route, do NOT use a URL. Instead use one of the following:
       1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol905AAmbulanceDestination'
+        ui-sref='tabsController.protocol904CDestinationProtocolForNonTraumaPatients'
       2) Using $state.go programatically:
-        $state.go('tabsController.protocol905AAmbulanceDestination');
+        $state.go('tabsController.protocol904CDestinationProtocolForNonTraumaPatients');
     This allows your app to figure out which Tab to open this page in on the fly.
     If you're setting a Tabs default page or modifying the .otherwise for your app and
     must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_905-A
-      /Tabs_Controller/tab3/Protocol_905-A
+      /Tabs_Controller/tab1/Protocol_904-C
+      /Tabs_Controller/tab3/Protocol_904-C
   */
-  .state('tabsController.protocol905AAmbulanceDestination', {
-    url: '/Protocol_905-A',
+  .state('tabsController.protocol904CDestinationProtocolForNonTraumaPatients', {
+    url: '/Protocol_904-C',
     views: {
       'tab1': {
-        templateUrl: 'templates/protocol905AAmbulanceDestination.html',
-        controller: 'protocol905AAmbulanceDestinationCtrl'
+        templateUrl: 'templates/protocol904CDestinationProtocolForNonTraumaPatients.html',
+        controller: 'protocol904CDestinationProtocolForNonTraumaPatientsCtrl'
       },
       'tab3': {
-        templateUrl: 'templates/protocol905AAmbulanceDestination.html',
-        controller: 'protocol905AAmbulanceDestinationCtrl'
-      }
-    }
-  })
-
-  /* 
-    The IonicUIRouter.js UI-Router Modification is being used for this route.
-    To navigate to this route, do NOT use a URL. Instead use one of the following:
-      1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol905BDestinationProtocolForNonTraumaPatients'
-      2) Using $state.go programatically:
-        $state.go('tabsController.protocol905BDestinationProtocolForNonTraumaPatients');
-    This allows your app to figure out which Tab to open this page in on the fly.
-    If you're setting a Tabs default page or modifying the .otherwise for your app and
-    must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_905-B
-      /Tabs_Controller/tab3/Protocol_905-B
-  */
-  .state('tabsController.protocol905BDestinationProtocolForNonTraumaPatients', {
-    url: '/Protocol_905-B',
-    views: {
-      'tab1': {
-        templateUrl: 'templates/protocol905BDestinationProtocolForNonTraumaPatients.html',
-        controller: 'protocol905BDestinationProtocolForNonTraumaPatientsCtrl'
-      },
-      'tab3': {
-        templateUrl: 'templates/protocol905BDestinationProtocolForNonTraumaPatients.html',
-        controller: 'protocol905BDestinationProtocolForNonTraumaPatientsCtrl'
-      }
-    }
-  })
-
-  /* 
-    The IonicUIRouter.js UI-Router Modification is being used for this route.
-    To navigate to this route, do NOT use a URL. Instead use one of the following:
-      1) Using the ui-sref HTML attribute:
-        ui-sref='tabsController.protocol905CDestinationProtocolForNonTraumaPatients'
-      2) Using $state.go programatically:
-        $state.go('tabsController.protocol905CDestinationProtocolForNonTraumaPatients');
-    This allows your app to figure out which Tab to open this page in on the fly.
-    If you're setting a Tabs default page or modifying the .otherwise for your app and
-    must use a URL, use one of the following:
-      /Tabs_Controller/tab1/Protocol_905-C
-      /Tabs_Controller/tab3/Protocol_905-C
-  */
-  .state('tabsController.protocol905CDestinationProtocolForNonTraumaPatients', {
-    url: '/Protocol_905-C',
-    views: {
-      'tab1': {
-        templateUrl: 'templates/protocol905CDestinationProtocolForNonTraumaPatients.html',
-        controller: 'protocol905CDestinationProtocolForNonTraumaPatientsCtrl'
-      },
-      'tab3': {
-        templateUrl: 'templates/protocol905CDestinationProtocolForNonTraumaPatients.html',
-        controller: 'protocol905CDestinationProtocolForNonTraumaPatientsCtrl'
+        templateUrl: 'templates/protocol904CDestinationProtocolForNonTraumaPatients.html',
+        controller: 'protocol904CDestinationProtocolForNonTraumaPatientsCtrl'
       }
     }
   })
@@ -3460,6 +3406,16 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab7': {
         templateUrl: 'templates/vitalSigns.html',
         controller: 'vitalSignsCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.commonLabValues', {
+    url: '/Common_Lab_Values',
+    views: {
+      'tab7': {
+        templateUrl: 'templates/commonLabValues.html',
+        controller: 'commonLabValuesCtrl'
       }
     }
   })
