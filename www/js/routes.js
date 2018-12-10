@@ -245,62 +245,52 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
-  .state('tabsController.protocol1020Phenergan', {
+  .state('tabsController.protocol1020Pitocin', {
     url: '/Protocol_1020',
     views: {
       'tab2': {
-        templateUrl: 'templates/protocol1020Phenergan.html',
-        controller: 'protocol1020PhenerganCtrl'
+        templateUrl: 'templates/protocol1020Pitocin.html',
+        controller: 'protocol1020PitocinCtrl'
       }
     }
   })
 
-  .state('tabsController.protocol1021Pitocin', {
+  .state('tabsController.protocol1021Tylenol', {
     url: '/Protocol_1021',
     views: {
       'tab2': {
-        templateUrl: 'templates/protocol1021Pitocin.html',
-        controller: 'protocol1021PitocinCtrl'
+        templateUrl: 'templates/protocol1021Tylenol.html',
+        controller: 'protocol1021TylenolCtrl'
       }
     }
   })
 
-  .state('tabsController.protocol1022Tylenol', {
+  .state('tabsController.protocol1022Ativan', {
     url: '/Protocol_1022',
     views: {
       'tab2': {
-        templateUrl: 'templates/protocol1022Tylenol.html',
-        controller: 'protocol1022TylenolCtrl'
+        templateUrl: 'templates/protocol1022Ativan.html',
+        controller: 'protocol1022AtivanCtrl'
       }
     }
   })
 
-  .state('tabsController.protocol1023Valium', {
+  .state('tabsController.protocol1023Versed', {
     url: '/Protocol_1023',
     views: {
       'tab2': {
-        templateUrl: 'templates/protocol1023Valium.html',
-        controller: 'protocol1023ValiumCtrl'
+        templateUrl: 'templates/protocol1023Versed.html',
+        controller: 'protocol1023VersedCtrl'
       }
     }
   })
 
-  .state('tabsController.protocol1024Versed', {
+  .state('tabsController.protocol1024Zofran', {
     url: '/Protocol_1024',
     views: {
       'tab2': {
-        templateUrl: 'templates/protocol1024Versed.html',
-        controller: 'protocol1024VersedCtrl'
-      }
-    }
-  })
-
-  .state('tabsController.protocol1025Zofran', {
-    url: '/Protocol_1025',
-    views: {
-      'tab2': {
-        templateUrl: 'templates/protocol1025Zofran.html',
-        controller: 'protocol1025ZofranCtrl'
+        templateUrl: 'templates/protocol1024Zofran.html',
+        controller: 'protocol1024ZofranCtrl'
       }
     }
   })
@@ -3416,6 +3406,16 @@ angular.module('app.routes', ['ionicUIRouter'])
       'tab7': {
         templateUrl: 'templates/commonLabValues.html',
         controller: 'commonLabValuesCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.mISTReportTemplate', {
+    url: '/MIST',
+    views: {
+      'tab7': {
+        templateUrl: 'templates/mISTReportTemplate.html',
+        controller: 'mISTReportTemplateCtrl'
       }
     }
   })
