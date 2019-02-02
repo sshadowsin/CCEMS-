@@ -295,6 +295,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.protocol1025Oxygen', {
+    url: '/Protocol_1025',
+    views: {
+      'tab2': {
+        templateUrl: 'templates/protocol1025Oxygen.html',
+        controller: 'protocol1025OxygenCtrl'
+      }
+    }
+  })
+
   .state('login', {
     url: '/page14',
     templateUrl: 'templates/login.html',
